@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    
+}
+
+.header h1 {
+    text-transform: uppercase;
+}
+
+.image-container {   
+    clip-path: circle(50% at 50% 50%);
+    background-image: url('../img/profile1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 450px;
+    margin: 2rem auto;  
+}
+
+.navigation ul li {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    width: 16rem;
+    margin: 3rem 0;
+}
+
+.navigation ul li:not(:last-child) {
+    margin-right: 6rem;
+}
+
+
+.main-container {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.main-container div {
+    margin-bottom: 2rem;
+}
+
+.main-container h1 {
+    margin-bottom: 5rem;
+}
+
+.main-container p {
+    text-align: justify;
+}
+
+.footer {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.footer ul {
+    list-style: none;
+    margin-bottom: 3rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 2rem;
+}
+
+.footer ul a {
+    color: #777;
+    text-decoration: none;
+}
+
+
+@media (min-width: 480px) {
+    /*muuda image-container taustapilti*/
+    /*muuda dokumendi taustavärvi*/
+    /*muuda dokumendi tekstivärvi*/
+    /*ära unusta ka raamjoonesid*/
+
+    body, .container {
+        width: 100%;
+        background-color: rgb(183, 255, 231);
+        color: rgb(2, 2, 163)
+    }
+
+    .image-container {
+        background-image: url(../img/profile4.jpg);
+    }
+    
+    .navigation ul li {
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+        border-color: cornflowerblue;
+    }
+    .navigation ul li:not(:last-child) {
+        border-bottom: none;
+        border-color: cornflowerblue;
+    }
+    
+     .main-container {
+        color: rgb(2, 2, 163);
+        padding: 0.75rem;
+        width: 100%;
+    }
+
+    .main-container h1 {
+        margin: 1rem auto;
+    }
+    
+}
+
+
+@media (min-width: 768px) {
+
+    /*muuda image-container taustapilti*/
+    /*muuda dokumendi taustavärvi*/
+    /*muuda dokumendi tekstivärvi*/
+    /*ära unusta ka raamjoonesid*/
+
+    body, .container {
+        width: 100%;
+        background-color: lightgray;
+        color: darkslateblue;
+    }
+
+    .image-container {
+        background-image: url(../img/profile1.jpg);
+    }
+
+    .skills {
+        color: darkslateblue;
+        border: 1px solid cornflowerblue;
+    }
+
+    .skills ul {
+        border-color: darkslateblue;
+    }
+
+    .main-container {
+        color: darkslateblue;
+    }
+}
+
+
+@media (min-width: 1024px){
+        
+    /*muuda image-container taustapilti*/
+    /*muuda dokumendi taustavärvi*/
+    /*muuda dokumendi tekstivärvi*/
+    /*ära unusta ka raamjoonesid*/
+
+    body, .container {
+        width: 100%;
+        background-color: rgb(255, 210, 216);
+        color: purple;
+
+    } 
+
+    .image-container {
+        background-image: url(../img/profile2.jpg);
+    }
+
+    .navigation ul li {
+        border-color: indigo;
+        color: purple;
+    }
+
+    .main-container  {
+        color: purple;
+    }
+
+}
+
+
+@media (min-width: 1200px){
+
+    /*muuda image-container taustapilti*/
+    /*muuda dokumendi taustavärvi*/
+    /*muuda dokumendi tekstivärvi*/
+    /*ära unusta ka raamjoonesid*/
+    .header h1 {
+        margin: 3rem auto;
+    }
+
+    body, .container { 
+        width: 100%;
+        background-color: rgb(255, 201, 179);
+        color: darkslategray;
+    }
+
+    .image-container {
+        background-image: url(../img/profile3.jpg);
+    }
+
+    .navigation ul li {
+        border-color:crimson;
+        display: inline-block;
+        width: 16rem;
+    }
+    
+    .navigation ul li:not(:last-child) {
+        border-bottom: 1px solid black;
+        border-color: crimson;
+        margin-right: 4rem;
+    }
+    
+    .main-container {
+        width: 75%;
+    }
+
+    .html {
+        color: darkslategray;
+    }
+
+    .js {
+        color: darkslategray;
+    }
+
+    .nodejs {
+        color: darkslategray;
+    }
+
+    .mongo { 
+        color: darkslategray;
+    }
+}
+
+
