@@ -106,7 +106,6 @@
         border-color: cornflowerblue;
     }
     .navigation ul li:not(:last-child) {
-        border-bottom: none;
         border-color: cornflowerblue;
     }
     
